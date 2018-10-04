@@ -16,8 +16,5 @@ Wait until Kibana seems to have woken up and goto http://localhost:5601
   5. [ Launch APM ]
 * Set `Auto-refresh` to `5 seconds`
 * Visit http://localhost:3000 (...and click around a bit)
-* Click on `Such amaze frontend` and enjoy the graphs
-
-# Issues
-
-I seem to have broken the api logging. Will add instructions as soon as it's up
+* Visit http://localhost:3000/api and http://localhost:3000/api/bork
+* Click on `Such amaze frontend`/`Such amaze backend` respectively and enjoy the graphs

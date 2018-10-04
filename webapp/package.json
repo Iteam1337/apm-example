@@ -1,12 +1,12 @@
 {
   "name": "webapp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon .",
     "build": "next build",
-    "start": "next start"
+    "start": "NODE_ENV=production node ."
   },
   "author": "",
   "license": "MIT",

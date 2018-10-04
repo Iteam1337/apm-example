@@ -54,7 +54,8 @@ services:
     environment:
       - PORT=3000
       - APM_SERVER=http://localhost:8200
-      - APP_NAME_FRONT='Such amaze frontend'
-      - APP_NAME_BACK='Such amaze backend'
+      - APM_SERVER_INTERNAL=http://apm-server:8200
+      - APP_NAME_FRONT=Such amaze frontend
+      - APP_NAME_BACK=Such amaze backend
     ports:
       - 3000:3000
